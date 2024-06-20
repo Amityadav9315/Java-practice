@@ -9,17 +9,13 @@ public class SecongLargest {
         int b = sc.nextInt();
         int c = sc.nextInt();
         int max = 0;
-        if (a > max) {
-            max = a;
-            if (b > max) {
-                max = b;
-            }
-            if(c>max){
-                max=c;
-            }
+        if ((a > b || a > c) && (a < b || a < c)) {
+            System.out.println(a);
+        } else if ((b > a || b > c )&&( b < a || b < c) ){
+            System.out.println(b);
+        } else if ((c > a || c > b) && (c < a || c < b)) {
+            System.out.println(c);
         }
-        System.out.println(max);
 
     }
-
 }
