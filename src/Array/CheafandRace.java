@@ -1,3 +1,5 @@
+package Array;
+
 import java.util.*;
 public class CheafandRace {
         public static void main (String[] args) throws java.lang.Exception
