@@ -3,6 +3,7 @@ public class OlympicRanking {
         public static void main (String[] args) throws java.lang.Exception
         {
             Scanner sc=new Scanner(System.in);
+            System.out.println("Entre the number");
                 int g1=sc.nextInt();
                 int s1=sc.nextInt();
                 int b1=sc.nextInt();
