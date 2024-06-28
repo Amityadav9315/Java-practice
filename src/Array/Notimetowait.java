@@ -3,6 +3,7 @@ public class Notimetowait {
         public static void main (String[] args) throws java.lang.Exception
         {
             Scanner sc=new Scanner(System.in);
+            int count=0;
                 int n=sc.nextInt();
                 int h=sc.nextInt();
                 int x=sc.nextInt();
@@ -11,19 +12,24 @@ public class Notimetowait {
                     arr[i]=sc.nextInt();
 
                 }
-                for(int i=0; i<arr.length; i++){
-                    if(arr[i]+x==h){
-                        System.out.println("Yes");
+                for(int i=0; i<arr.length; i++) {
+                    if (arr[i] + x == h) {
+                        count++;
                     }
                 }
-                //if {
-                    System.out.println("No");
+                    if(count>=1){
+                        System.out.println("Yes");
+                    }
+                    else{
+                        System.out.println("No");
+                    }
+                }
 
                 }
-            }
+
             // your code goes here
 
-        }
+
 
 
 
